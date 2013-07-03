@@ -24,8 +24,11 @@ body{
 	a{
 		color: $gray;
 	}
-	position:absolute;
-	bottom:5px;
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
 }
 
 /* Required for jQuery MAsonry */
